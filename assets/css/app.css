@@ -1,0 +1,187 @@
+.card {
+  border: 2px rgb(129, 129, 129) solid;
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+/*
+.btn.btn-primary {
+  background-color: inherit;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  color: white;
+}*/
+
+.media {
+  display: table-cell;
+  margin: 5px;
+}
+
+.media img {
+  border-radius: 50px;
+}
+
+.text-dell-blue {
+  color: rgb(1, 133, 197) !important;
+}
+
+.text-dell-purple {
+  color: rgb(109,38,134) !important;
+}
+
+.text-dell-red {
+  color: rgb(183, 41, 89) !important;
+}
+
+.text-dell-orange {
+  color: rgb(255, 119, 1) !important;
+}
+
+.text-dell-green {
+  color: rgb(122, 183, 0) !important;
+}
+
+.carousel-indicators li {
+  border-color: rgb(1, 133, 197);
+}
+
+.carousel-indicators li.active {
+  background-color: rgb(1, 133, 197);
+}
+
+@media screen and (min-width: 768px) {
+  #testimony-carousel .carousel-indicators {
+    bottom: -35px;
+  }
+}
+
+.navbar.dell-navbar .container-fluid {
+  background-color: rgb(1,133,197);
+  color: lightgrey;
+}
+
+.navbar.dell-navbar a {
+  color: lightgrey;
+}
+
+.navbar.dell-navbar a:hover {
+  color: white;
+  background-color:transparent;
+}
+
+.navbar.dell-navbar .container-fluid li:hover {
+  color: white;
+}
+
+.navbar.dell-navbar .navbar-brand {
+  color: white;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.btn.dell-green {
+  color: white;
+  background-color: rgb(122, 183, 0);
+  border-color: rgb(91, 135, 3);
+}
+
+.btn.dell-green:hover {
+  background-color: rgb(91, 135, 3);
+}
+
+.btn.dell-orange {
+  color: white;
+  background-color: rgb(255, 119, 1);
+  border-color: rgb(198, 95, 6);
+}
+
+.btn.dell-orange:hover {
+  background-color: rgb(198, 95, 6);
+}
+
+.btn.dell-purple {
+  color: white;
+  background-color: rgb(109,38,134);
+  border-color: rgb(72, 24, 89);
+}
+
+.btn.dell-purple:hover {
+  background-color: rgb(72, 24, 89);
+}
+
+div.card {
+  height: 200px;
+  overflow: auto;
+  text-align: center;
+}
+
+div.card .media {
+  vertical-align: center;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: grey;
+}
+
+.navbar-toggle:hover .icon-bar {
+  background-color: white;
+}
+
+.footer {
+  background-color: rgb(1, 133, 197);
+  color: white;
+  min-height: 70px;
+  padding: 10px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.navmenu.dell-navmenu {
+  background-color: rgb(1, 133, 197);
+  border: none;
+}
+
+.navmenu.dell-navmenu .navmenu-nav>li>a {
+  text-transform:uppercase;
+  color: white;
+}
+
+.navmenu.dell-navmenu .navmenu-nav>li:hover {
+  background-color: rgb(5, 100, 147);
+}
+
+.navmenu.dell-navmenu .navmenu-nav>li>a.active {
+  background-color: rgb(255, 119, 1);
+}
+
+a.dell-green {
+  background-color: rgb(122, 183, 0);
+}
+
+a.dell-green:hover {
+  background-color: rgb(91, 135, 3);
+}
+
+a.dell-purple {
+  background-color: rgb(109,38,134);
+}
+
+a.dell-purple:hover {
+  background-color: rgb(72, 24, 89);
+}

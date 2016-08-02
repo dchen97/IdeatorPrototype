@@ -8,38 +8,55 @@
     <title>Ideators Program | Home</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\jasny-bootstrap\css\jasny-bootstrap.min.css" />
 
+    <link rel="stylesheet" href="./assets/css/app.css" />
   </head>
   <body>
+    <nav id="navMenu" class="navmenu navmenu-default navmenu-fixed-right dell-navmenu offcanvas" role="navigation">
+      <ul class="nav navmenu-nav">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Documents</a></li>
+        <li><a href="#" class="dell-green">Register</a></li>
+        <li><a href="#" class="dell-purple">Submit an Idea</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
     <div class="header-wrapper">
-      <div class="container">
-        <nav class="navbar navbar-inverse">
-          <div class="container">
+      <div class="container-fluid">
+        <nav class="navbar dell-navbar navbar-fixed-top">
+          <div class="container-fluid">
             <div class="navbar-header">
               <a class="navbar-brand" href="#">Ideators</a>
             </div>
             <div id="topbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" class="btn btn-primary">Submit an idea!</a></li>
-                <li><a href="#" id="menu-toggle"></li>
+                <li><a href="#" class="">Submit an idea!</a></li>
+                <button type="button" class="navbar-toggle" style="display: initial;" data-toggle="offcanvas" data-target="#navMenu" data-canvas="body">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+    <div id="carousel" class="carousel slide" data-ride="carousel" style="height: 35em;">
+      <ol class="carousel-indicators" height="35em">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="#" alt="First slide">
+      <div class="carousel-inner" role="listbox" style="height: 35em;">
+        <div class="item active" style="height: 35em;">
+          <img class="first-slide" src="./assets/img/desk-office-hero-workspace.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Registration</h1>
+              <h1 class="text-dell-blue">Registration</h1>
               <p>Registration is now open to take part in the inaugural Ideators program!</p>
               <p>
                 <a class="btn btn-lg btn-primary" href="#" role="button">Sign up today!</a>
@@ -47,8 +64,8 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="second-slide" src="#" alt="Second slide">
+        <div class="item" style="height: 35em;">
+          <img class="second-slide" src="assets/img/pen-idea-bulb-paper.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Have an Innovative Idea?</h1>
@@ -59,11 +76,11 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="third-slide" src="#" alt="Third Slide">
+        <div class="item" style="height: 35em;">
+          <img class="third-slide" src="assets/img/quote-chalk-think-words.jpg" alt="Third Slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>What <em>is</em> the Ideator Program?</h1>
+              <h1 class="text-dell-orange">What <em>is</em> the Ideator Program?</h1>
               <p>Interested in signing up? Or just want to know what's the next big thing?</p>
               <p>
                 <a class="btn btn-lg btn-primary" href="#" role="button">Learn more here</a>
@@ -72,47 +89,149 @@
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" height="24.5em">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next" height="24.5em">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="container" style="padding-top: 2em;">
+      <div class="row" style="text-align: center;">
         <div class="col-md-4 col-xs-12">
-          <img class="img-circle" src="#" alt="Registration icon" width="140" height="140">
-          <h2>Registration</h2>
+          <img class="text-dell-green" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Checklist_Noun_project_5166.svg/2000px-Checklist_Noun_project_5166.svg.png" alt="Registration icon" width="140" height="140">
+          <h2 class="text-dell-green">Registration</h2>
           <p>Register today to become a part of the inaugural class of the Ideators Program! Gain a once-in-a-lifetime opportunity to make an impact on Dell in addition to distinguishing yourself as a leader of innovation.</p>
           <p>
-            <a class="btn btn-primary" role="button">Register Here!</a>
-          </p>
-        </div>
-        <div class-"col-md-4 col-xs-12">
-          <img class="img-circle" src="#" alt="Process Icon" width="140" height="140">
-          <h2>Ideator Process</h2>
-          <p>The Ideator program is a 3-month long event that will be held at Dell every quarter aimed towards encouraging and supporting innovation within Dell. Participants will have a unique opportunity to propose, prototype, and present their ideas to executives within Dell. Top ideas will go on to be funded and, if applicable, will be applied towards a patent.</p>
-          <p>
-            <a class="btn btn-primary" role="button">Learn more Here</a>
+            <a class="btn dell-green" role="button">Register Here!</a>
           </p>
         </div>
         <div class="col-md-4 col-xs-12">
-          <img class="img-circle" src="#" alt="Idea Submission icon" width="140" height="140">
-          <h2>Idea Submission</h2>
+          <img class="text-dell-orange" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cog-icon-grey.svg/2000px-Cog-icon-grey.svg.png" alt="Process Icon" width="140" height="140">
+          <h2 class="text-dell-orange">Ideator Process</h2>
+          <p>The Ideator program is a 3-month long event that will be held at Dell every quarter aimed towards encouraging and supporting innovation within Dell. Participants will have a unique opportunity to propose, prototype, and present their ideas to executives within Dell. Top ideas will go on to be funded and, if applicable, will be applied towards a patent.</p>
+          <p>
+            <a class="btn dell-orange" role="button">Learn more Here</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <img class="text-dell-purple" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Book_font_awesome.svg/512px-Book_font_awesome.svg.png" alt="Idea Submission icon" width="140" height="140">
+          <h2 class="text-dell-purple">Idea Submission</h2>
           <p>Do you have an idea that has just been sitting at the back of your mind, bugging you for attention? Idea submissions are open to any and all Dell employees, whether they are Ideator participants or not, so your big idea could be the next big patent at Dell! If you'd like to learn more and submit your idea for approval, then click the link below!</p>
           <p>
-            <a class="btn btn-primary" role="button">Submit an Idea!</a>
+            <a class="btn dell-purple" role="button">Submit an Idea!</a>
           </p>
         </div>
       </div>
     </div>
+    <br />
+    <div class="container">
+      <h1 style="text-align: center;" id="#testimonials">Testimonials</h1>
+      <br />
+      <div id="testimony-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#testimony-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#testimony-carousel" data-slide-to="1"></li>
+          <li data-target="#testimony-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="col-xs-12 col-md-6">
+              <div class="card">
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <img class="img-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu7RxVmEZ5922k9PHcdUtIwhPvaBac5rpgg3OIh7qyUcPU7Lb0" style="height: 100px; width: 100px;" alt="testimony1picture" class="media-object">
+                  </div>
+                </div>
+                <div class="media-body" style="text-align: center;">
+                  <h3 class="media-heading">"I had so much fun and learned a lot of valuable lessons in innovation and entreprepreneurship."</h3>
+                  <p class="text-dell-blue"><em>~ Allie Johnson '16 </em></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div class="card">
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <img class = "img-circle" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQL31wCXVbVi3rgfvZ36ZFQV9Bof3ukK2uMLYEuDAS2jwwDLxxe" style="height: 100px; width: 100px;" alt="testimony2picture">
+                  </div>
+                </div>
+                <div class="media-body" style="text-align: center;">
+                  <h3 class="media-heading">"While we didn't win, I'm so proud of all that my team and I were able to accomplish in just 2 months."</h3>
+                  <p class="text-dell-blue"><em>~ Stephen Hawking '16</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="item">
+            <div class="card">
+              <div class="col-xs-12 col-md-6">
+                <div class="thumbnail">
+                  <img src="#" alt="testimony"
+            </div>
+            <div class="card">
+
+            </div> -->
+          </div>
+        </div>
+
+        <br />
+
+        <div class="newsfeed" style="padding-top: 15px;">
+          <h1 style="text-align: center; display: block;">Newsfeed</h1>
+          <div class="newsfeed-stories" style="padding-bottom: 15px;">
+            <div class="col-xs-12 col-md-8">
+              <div id="featured-story">
+                <h3 class="featured story-heading">Registration Now Open!</h3>
+                <p class="featured story-body">Registration is now officially open for teams and individuals to join the first class of Dell Ideators! Small batch hashtag disrupt tumblr, gastropub blue bottle banh mi master cleanse. Pop-up fingerstache viral man bun, green juice mumblecore shabby chic ugh farm-to-table fanny pack 3 wolf moon. Next level normcore occupy chambray. Gastropub leggings church-key, jean shorts vice YOLO twee cronut kombucha. Gastropub sartorial roof party, green juice ennui gentrify XOXO health goth crucifix. Kinfolk tilde 8-bit small batch paleo. Etsy asymmetrical artisan brunch, meh microdosing chambray shabby chic swag.</p>
+                <a class="story-link btn dell-orange">See more...</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4" style="padding-bottom: 15px;">
+              <div id="secondary-story">
+                <h4 class="secondary story-heading">Ideators Information Sessions</h4>
+                <p class="secondary story-body">Information Sessions have just been scheduled for you to learn more about the Ideators program! Join us on the following days... </p>
+                <a class="story-link btn dell-orange" href="#">See more...</a>
+              </div>
+              <div id="tertiary-story">
+                <h4 class="tertiary story-heading">Innovation at Dell Takes on a New Form</h4>
+                <p class="tertiary story-body">Dell is taking on a whole new program for innovating the way that we see and apply innovative practices. The Ideators program... </p>
+                <a class="story-link btn dell-orange" href="#">See more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer row">
+        <div class="container">
+          <div class="col-xs-12 col-md-4 dell-dark-blue">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Documents</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <p>
+              What are you waiting for? <a class="btn dell-green" href="#">Register Today!</a>
+            </p>
+            <p>
+              Have an idea that has been nagging at you? <a class="btn dell-purple" href="#">Submit an idea here!</a>
+            </p>
+          </div>
+        </div>
+      </div>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets\jasny-bootstrap\js\jasny-bootstrap.min.js"></script>
+
   </body>
 </html>
