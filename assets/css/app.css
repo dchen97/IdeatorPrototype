@@ -1,3 +1,6 @@
+ul {
+  list-style-type: none;
+}
 .card {
   border: 2px rgb(129, 129, 129) solid;
   padding: 5px 10px 5px 10px;
@@ -87,7 +90,7 @@
 .btn.dell-green {
   color: white;
   background-color: rgb(122, 183, 0);
-  border-color: rgb(91, 135, 3);
+  /*border-color: rgb(91, 135, 3);*/
 }
 
 .btn.dell-green:hover {
@@ -97,7 +100,7 @@
 .btn.dell-orange {
   color: white;
   background-color: rgb(255, 119, 1);
-  border-color: rgb(198, 95, 6);
+  /*border-color: rgb(198, 95, 6);*/
 }
 
 .btn.dell-orange:hover {
@@ -107,7 +110,16 @@
 .btn.dell-purple {
   color: white;
   background-color: rgb(109,38,134);
-  border-color: rgb(72, 24, 89);
+  /*border-color: rgb(72, 24, 89);*/
+}
+
+.btn.dell-magenta {
+  color: white;
+  background-color: rgb(183, 41, 89);
+}
+
+.btn.dell-magenta:hover {
+  background-color: rgb(136, 30, 66);
 }
 
 .btn.dell-purple:hover {
@@ -118,10 +130,12 @@ div.card {
   height: 200px;
   overflow: auto;
   text-align: center;
+  display: table;
 }
 
-div.card .media {
-  vertical-align: center;
+div.card .media, .media-body {
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .navbar-toggle .icon-bar {
@@ -141,6 +155,7 @@ div.card .media {
 
 .footer ul {
   list-style: none;
+  font-size:large;
 }
 
 .footer a {
@@ -166,8 +181,16 @@ div.card .media {
   background-color: rgb(5, 100, 147);
 }
 
+.navmenu.dell-navmenu .navmenu-nav>li>a.dell-green:hover {
+  background-color: rgb(91, 135, 3);
+}
+
+.navmenu.dell-navmenu .navmenu-nav>li>a.dell-purple:hover {
+  background-color: rgb(72, 24, 89);
+}
+
 .navmenu.dell-navmenu .navmenu-nav>li>a.active {
-  background-color: rgb(255, 119, 1);
+  background-color: rgb(198, 94, 6);
 }
 
 a.dell-green {
@@ -184,4 +207,100 @@ a.dell-purple {
 
 a.dell-purple:hover {
   background-color: rgb(72, 24, 89);
+}
+
+.card.dell-green {
+  background-color: rgb(122, 183, 0);
+  color: white;
+  border: none;
+}
+
+.card.dell-purple {
+  background-color: rgb(109,38,134);
+  color: white;
+  border: none;
+}
+
+.card.dell-orange {
+  background-color: rgb(255, 119, 1);
+  color: white;
+  border: none;
+}
+
+.panel.dell-blue {
+  border-color: #0185c5;
+}
+
+.panel.dell-blue>.panel-heading {
+  background-color: #0185c5;
+  border-color: #0185c5;
+  color: white;
+}
+
+.panel.dell-blue>div>div.panel-body>ul>li>a {
+  color: #0185c5;
+}
+
+.panel.dell-blue>div>div.panel-body>ul>li>a:hover {
+  color: #045e8a;
+}
+
+.panel.dell-green {
+  border-color: rgb(122, 183, 0);
+}
+
+.panel.dell-green>.panel-heading {
+  background-color: rgb(122, 183, 0);
+  border-color: rgb(122, 183, 0);
+  color: white;
+}
+
+.panel.dell-green>div>div.panel-body>ul>li>a {
+  color: rgb(122, 183, 0);
+}
+
+.panel.dell-green>div>div.panel-body>ul>li>a:hover {
+  color: rgb(84, 124, 4);
+}
+
+.panel.dell-purple {
+  border-color: rgb(109,38,134);
+}
+
+.panel.dell-purple>.panel-heading {
+  background-color: rgb(109,38,134);
+  border-color: rgb(109,38,134);
+  color: white;
+}
+
+.panel.dell-purple>div>div.panel-body>ul>li>a {
+  color: rgb(109,38,134);
+}
+
+.panel.dell-purple>div>div.panel-body>ul>li>a:hover {
+  color: rgb(68, 24, 84);
+}
+
+.panel.dell-orange {
+  border-color: rgb(255, 119, 1);
+}
+
+.panel.dell-orange>.panel-heading {
+  background-color: rgb(255, 119, 1);
+  border-color: rgb(255, 119, 1);
+  color: white;
+}
+
+.panel.dell-orange>div>div.panel-body>ul>li>a {
+  color: rgb(255, 119, 1);
+}
+
+.panel.dell-orange>div>div.panel-body>ul>li>a:hover {
+  color: rgb(185, 89, 6);
+}
+
+.carousel-caption {
+  text-shadow: none;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 30px;
 }

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ideators Program | Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\jasny-bootstrap\css\jasny-bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets\jasny-bootstrap\js\jasny-bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/app.css" />
+  </head>
+  <body>
+    <nav id="navMenu" class="navmenu navmenu-default navmenu-fixed-right dell-navmenu offcanvas" role="navigation">
+      <ul class="nav navmenu-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Documents</a></li>
+        <li><a href="#" class="dell-green">Register</a></li>
+        <li><a href="#" class="dell-purple">Submit an Idea</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="header-wrapper">
+      <div class="container-fluid">
+        <nav class="navbar dell-navbar navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Ideators</a>
+            </div>
+            <div id="topbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="">Submit an idea!</a></li>
+                <button type="button" class="navbar-toggle" style="display: initial;" data-toggle="offcanvas" data-target="#navMenu" data-canvas="body">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <h1 class="text-dell-blue" style="text-align: center; padding-top: 2em;" id="top">Frequently Asked Questions</h1>
+    <div class="container">
+      <div class="panel-group" id="questions-list" role="tablist" aria-multiselectable="true">
+        <div class="panel dell-green">
+          <div class="panel-heading" role="tab" id="about-heading">
+            <h4 class="panel-title">
+              <a class="" role="button" data-toggle="collapse" data-parent="#questions-list" href="#about-qs" aria-expanded="true" aria-controls="about-qs">
+                About the Program
+              </a>
+            </h4>
+          </div>
+          <div id="about-qs" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="about-heading">
+            <div class="panel-body">
+              <ul>
+                <li><a href="#what-is">What is the Ideator Program?</a></li>
+                <li><a href="#when-is">When is the Ideator Program taking place?</a></li>
+                <li><a href="#time-commitment">What is the time commitment like to be an Ideator?</a></li>
+                <li><a href="#how">How can I take part in the program?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel dell-purple">
+          <div class="panel-heading" role="tab" id="registration-heading">
+            <h4 class="panel-title">
+              <a role="button" class="collapsed" data-toggle="collapse" data-parent="#questions-list" href="#registration-qs" aria-expanded="false" aria-controls="registration-qs">
+                Registration Questions
+              </a>
+            </h4>
+          </div>
+          <div id="registration-qs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="registration-heading">
+            <div class="panel-body">
+              <ul>
+                <li><a href="#">How can I register to be a part of the Ideators Program?</a></li>
+                <li><a href="#">Who can register to be an Ideator?</a></li>
+                <li><a href="#">Where do I register?</a></li>
+                <li><a href="#">What if I don't have a team?</a></li>
+                <li><a href="#">What if I do have a team?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel dell-orange">
+          <div class="panel-heading" role="tab" id="other-heading">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#questions-list" href="#other-qs" aria-expanded="false" aria-controls="other-qs">
+                Other Questions
+              </a>
+            </h4>
+          </div>
+          <div id="other-qs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="other-heading">
+            <div class="panel-body">
+              <ul>
+                <li><a href="#">Who's in charge of the Ideator Program?</a></li>
+                <li><a href="#">How can I contact the awesome innovators behind the Ideator Program?</a></li>
+                <li><a href="#">Where do I go if my question wasn't answered here?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <h3 class="text-dell-green">About the Program</h3>
+      <div class="list-group">
+        <div class="list-group-item" id="what-is">
+          <h4 class="list-group-item-heading">What is the Ideator Program?</h4>
+          <p class="list-group-item-text">
+            The Ideator Program is an approximately 3-month long
+            competition that Dell holds every quarter for its IT Development
+            Program members. It aims to encourage and support innovation within
+            and outside of Dell by recognizing the ideators in our community.
+            <br />
+            <br />
+            <a href="#top">
+              Back to Top
+            </a>
+          </p>
+        </div>
+        <div class="list-group-item" id="when-is">
+          <h4 class="list-group-item-heading">When is the Ideator Program taking place?</h4>
+          <p class="list-group-item-text">
+            The Ideator Program takes place every quarter. The upcoming Ideator
+            session will start with Registration opening on August 29th, 2016.
+            <br />
+            <br />
+
+            <a href="#top">
+              Back to Top
+            </a>
+          </p>
+        </div>
+        <div class="list-group-item" id="time-commitment">
+          <h4 class="list-group-item-heading">What is the time commitment like to be an Ideator?</h4>
+          <p class="list-group-item-text">
+            All of the Ideator Program activities should take teams no longer than
+            a few hours each week to complete the tasks that they need. Suggested
+            deadlines are listed on the <a href="#">Ideator Sharepoint calendar</a>
+            <br />
+            <br />
+
+            <a href="#top">
+              Back to Top
+            </a>
+          </p>
+        </div>
+        <div class="list-group-item" id="how">
+          <h4 class="list-group-item-heading">How can I take part in the program?</h4>
+          <p class="list-group-item-text">
+            If you're a part of the Dell ITDP program, then you are highly encouraged to
+            register either as an individual or as a team for the program!
+            <br />
+            <br />
+            If you are not a part of the ITDP program, no worries! You still
+            have a chance to contribute by <a href="#">submitting your ideas!</a>
+            <br />
+            <br />
+            If you are an executive who would like to become a part of the
+            selection committee, please feel free to <a href="#">contact the Ideator Program
+            Steering Committee.</a>
+            <br />
+            <br />
+            <a href="#top">
+              Back to Top
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer row">
+      <div class="container">
+        <div class="col-xs-12 col-md-4 dell-dark-blue">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Documents</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <p>
+            What are you waiting for? <br /><a class="btn dell-green" href="#">Register Today!</a>
+          </p>
+          <p>
+            Have an idea that has been nagging at you? <br /><a class="btn dell-purple" href="#">Submit an idea here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
